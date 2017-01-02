@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif");
+
+h1 {
+  font-family: Droid Serif;
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 15px;
+}
+
+body {
+  background-color: rgb(40, 40, 40);
+  text-align: center;
+}
+
+#top {
+  margin: auto 35% auto 35%;
+  padding: 10px 30px 10px 30px;
+  color: white;
+}
+
+#search-bar {
+  margin-bottom: 10px;
+}
+
+.search-result {
+  background-color: white;
+  color: black;
+  padding: 1%;
+  margin: 20px 15% 20px 15%;
+  border-left: 8px solid rgb(60, 130, 250);
+  text-align: left;
+}
+
+.search-result:hover {
+  border-left: 8px solid rgb(30, 80, 200);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
